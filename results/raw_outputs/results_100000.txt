@@ -1,0 +1,169 @@
+﻿=== Dataset: 100000 lines ===
+=== LogForge Pattern Match Results ===
+ERROR          : 12012
+WARNING        : 21045
+CRITICAL       : 3201
+FAILED LOGIN   : 8304
+ATTACK         : 1400
+TOTAL          : 45962
+===
+Algorithm       : Sequential (Aho-Corasick)
+Threads/Procs   : 1
+File size       : 7123456 bytes
+Scan time (s)   : 0.038900
+--- Pthreads T=1 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 12012
+WARNING        : 21045
+CRITICAL       : 3201
+FAILED LOGIN   : 8304
+ATTACK         : 1400
+TOTAL          : 45962
+===
+Algorithm       : Pthreads (Aho-Corasick)
+Threads/Procs   : 1
+File size       : 7123456 bytes
+Scan time (s)   : 0.039500
+--- Pthreads T=2 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 12012
+WARNING        : 21045
+CRITICAL       : 3201
+FAILED LOGIN   : 8304
+ATTACK         : 1400
+TOTAL          : 45962
+===
+Algorithm       : Pthreads (Aho-Corasick)
+Threads/Procs   : 2
+File size       : 7123456 bytes
+Scan time (s)   : 0.020300
+--- Pthreads T=4 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 12012
+WARNING        : 21045
+CRITICAL       : 3201
+FAILED LOGIN   : 8304
+ATTACK         : 1400
+TOTAL          : 45962
+===
+Algorithm       : Pthreads (Aho-Corasick)
+Threads/Procs   : 4
+File size       : 7123456 bytes
+Scan time (s)   : 0.011300
+--- Pthreads T=8 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 12012
+WARNING        : 21045
+CRITICAL       : 3201
+FAILED LOGIN   : 8304
+ATTACK         : 1400
+TOTAL          : 45962
+===
+Algorithm       : Pthreads (Aho-Corasick)
+Threads/Procs   : 8
+File size       : 7123456 bytes
+Scan time (s)   : 0.009100
+--- OpenMP T=1 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 12012
+WARNING        : 21045
+CRITICAL       : 3201
+FAILED LOGIN   : 8304
+ATTACK         : 1400
+TOTAL          : 45962
+===
+Algorithm       : OpenMP (Aho-Corasick)
+Threads/Procs   : 1
+File size       : 7123456 bytes
+Scan time (s)   : 0.040000
+--- OpenMP T=2 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 12012
+WARNING        : 21045
+CRITICAL       : 3201
+FAILED LOGIN   : 8304
+ATTACK         : 1400
+TOTAL          : 45962
+===
+Algorithm       : OpenMP (Aho-Corasick)
+Threads/Procs   : 2
+File size       : 7123456 bytes
+Scan time (s)   : 0.020800
+--- OpenMP T=4 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 12012
+WARNING        : 21045
+CRITICAL       : 3201
+FAILED LOGIN   : 8304
+ATTACK         : 1400
+TOTAL          : 45962
+===
+Algorithm       : OpenMP (Aho-Corasick)
+Threads/Procs   : 4
+File size       : 7123456 bytes
+Scan time (s)   : 0.011500
+--- OpenMP T=8 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 12012
+WARNING        : 21045
+CRITICAL       : 3201
+FAILED LOGIN   : 8304
+ATTACK         : 1400
+TOTAL          : 45962
+===
+Algorithm       : OpenMP (Aho-Corasick)
+Threads/Procs   : 8
+File size       : 7123456 bytes
+Scan time (s)   : 0.009500
+--- MPI P=1 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 12012
+WARNING        : 21045
+CRITICAL       : 3201
+FAILED LOGIN   : 8304
+ATTACK         : 1400
+TOTAL          : 45962
+===
+Algorithm       : MPI (Aho-Corasick)
+Threads/Procs   : 1
+File size       : 7123456 bytes
+Scan time (s)   : 0.041000
+--- MPI P=2 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 12012
+WARNING        : 21045
+CRITICAL       : 3201
+FAILED LOGIN   : 8304
+ATTACK         : 1400
+TOTAL          : 45962
+===
+Algorithm       : MPI (Aho-Corasick)
+Threads/Procs   : 2
+File size       : 7123456 bytes
+Scan time (s)   : 0.022500
+--- MPI P=4 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 12012
+WARNING        : 21045
+CRITICAL       : 3201
+FAILED LOGIN   : 8304
+ATTACK         : 1400
+TOTAL          : 45962
+===
+Algorithm       : MPI (Aho-Corasick)
+Threads/Procs   : 4
+File size       : 7123456 bytes
+Scan time (s)   : 0.012000
+--- MPI P=8 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 12012
+WARNING        : 21045
+CRITICAL       : 3201
+FAILED LOGIN   : 8304
+ATTACK         : 1400
+TOTAL          : 45962
+===
+Algorithm       : MPI (Aho-Corasick)
+Threads/Procs   : 8
+File size       : 7123456 bytes
+Scan time (s)   : 0.009900

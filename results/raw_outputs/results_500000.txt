@@ -1,0 +1,169 @@
+﻿=== Dataset: 500000 lines ===
+=== LogForge Pattern Match Results ===
+ERROR          : 60061
+WARNING        : 105228
+CRITICAL       : 16006
+FAILED LOGIN   : 41522
+ATTACK         : 7001
+TOTAL          : 229818
+===
+Algorithm       : Sequential (Aho-Corasick)
+Threads/Procs   : 1
+File size       : 35617283 bytes
+Scan time (s)   : 0.192100
+--- Pthreads T=1 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 60061
+WARNING        : 105228
+CRITICAL       : 16006
+FAILED LOGIN   : 41522
+ATTACK         : 7001
+TOTAL          : 229818
+===
+Algorithm       : Pthreads (Aho-Corasick)
+Threads/Procs   : 1
+File size       : 35617283 bytes
+Scan time (s)   : 0.195500
+--- Pthreads T=2 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 60061
+WARNING        : 105228
+CRITICAL       : 16006
+FAILED LOGIN   : 41522
+ATTACK         : 7001
+TOTAL          : 229818
+===
+Algorithm       : Pthreads (Aho-Corasick)
+Threads/Procs   : 2
+File size       : 35617283 bytes
+Scan time (s)   : 0.100500
+--- Pthreads T=4 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 60061
+WARNING        : 105228
+CRITICAL       : 16006
+FAILED LOGIN   : 41522
+ATTACK         : 7001
+TOTAL          : 229818
+===
+Algorithm       : Pthreads (Aho-Corasick)
+Threads/Procs   : 4
+File size       : 35617283 bytes
+Scan time (s)   : 0.057100
+--- Pthreads T=8 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 60061
+WARNING        : 105228
+CRITICAL       : 16006
+FAILED LOGIN   : 41522
+ATTACK         : 7001
+TOTAL          : 229818
+===
+Algorithm       : Pthreads (Aho-Corasick)
+Threads/Procs   : 8
+File size       : 35617283 bytes
+Scan time (s)   : 0.034500
+--- OpenMP T=1 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 60061
+WARNING        : 105228
+CRITICAL       : 16006
+FAILED LOGIN   : 41522
+ATTACK         : 7001
+TOTAL          : 229818
+===
+Algorithm       : OpenMP (Aho-Corasick)
+Threads/Procs   : 1
+File size       : 35617283 bytes
+Scan time (s)   : 0.196300
+--- OpenMP T=2 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 60061
+WARNING        : 105228
+CRITICAL       : 16006
+FAILED LOGIN   : 41522
+ATTACK         : 7001
+TOTAL          : 229818
+===
+Algorithm       : OpenMP (Aho-Corasick)
+Threads/Procs   : 2
+File size       : 35617283 bytes
+Scan time (s)   : 0.103000
+--- OpenMP T=4 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 60061
+WARNING        : 105228
+CRITICAL       : 16006
+FAILED LOGIN   : 41522
+ATTACK         : 7001
+TOTAL          : 229818
+===
+Algorithm       : OpenMP (Aho-Corasick)
+Threads/Procs   : 4
+File size       : 35617283 bytes
+Scan time (s)   : 0.058900
+--- OpenMP T=8 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 60061
+WARNING        : 105228
+CRITICAL       : 16006
+FAILED LOGIN   : 41522
+ATTACK         : 7001
+TOTAL          : 229818
+===
+Algorithm       : OpenMP (Aho-Corasick)
+Threads/Procs   : 8
+File size       : 35617283 bytes
+Scan time (s)   : 0.036100
+--- MPI P=1 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 60061
+WARNING        : 105228
+CRITICAL       : 16006
+FAILED LOGIN   : 41522
+ATTACK         : 7001
+TOTAL          : 229818
+===
+Algorithm       : MPI (Aho-Corasick)
+Threads/Procs   : 1
+File size       : 35617283 bytes
+Scan time (s)   : 0.201000
+--- MPI P=2 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 60061
+WARNING        : 105228
+CRITICAL       : 16006
+FAILED LOGIN   : 41522
+ATTACK         : 7001
+TOTAL          : 229818
+===
+Algorithm       : MPI (Aho-Corasick)
+Threads/Procs   : 2
+File size       : 35617283 bytes
+Scan time (s)   : 0.111500
+--- MPI P=4 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 60061
+WARNING        : 105228
+CRITICAL       : 16006
+FAILED LOGIN   : 41522
+ATTACK         : 7001
+TOTAL          : 229818
+===
+Algorithm       : MPI (Aho-Corasick)
+Threads/Procs   : 4
+File size       : 35617283 bytes
+Scan time (s)   : 0.064100
+--- MPI P=8 ---
+=== LogForge Pattern Match Results ===
+ERROR          : 60061
+WARNING        : 105228
+CRITICAL       : 16006
+FAILED LOGIN   : 41522
+ATTACK         : 7001
+TOTAL          : 229818
+===
+Algorithm       : MPI (Aho-Corasick)
+Threads/Procs   : 8
+File size       : 35617283 bytes
+Scan time (s)   : 0.039000
